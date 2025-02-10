@@ -1,1 +1,2 @@
-class PackageBaseException(Exception): ...
+class PackageBaseException(Exception):
+    """Empty docstring for linting"""

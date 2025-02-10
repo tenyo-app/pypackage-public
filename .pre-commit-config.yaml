@@ -1,0 +1,61 @@
+repos:
+  # General Code Quality and Formatting Hooks
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: 'v5.0.0'
+    hooks:
+      - id: trailing-whitespace
+      - id: end-of-file-fixer
+        exclude: .idea/
+      - id: check-merge-conflict
+      - id: check-case-conflict
+      - id: check-yaml
+      - id: check-toml
+
+  # Import Sorting with Isort
+  - repo: https://github.com/pre-commit/mirrors-isort
+    rev: 'v5.10.1'
+    hooks:
+      - id: isort
+        language_version: python3.12
+
+  # Code Formatting with Black
+  - repo: https://github.com/psf/black
+    rev: '24.10.0'
+    hooks:
+      - id: black
+        language_version: python3.12
+        args: [ "--line-length=79" ]
+
+  # Type Checking with MyPy
+  - repo: https://github.com/pre-commit/mirrors-mypy
+    rev: 'v1.14.1'
+    hooks:
+      - id: mypy
+        files: \.py$
+        exclude: ^(test|docs)/
+        args: [ ]
+        additional_dependencies: [ ]
+        # Add typed dependencies here for better type inference, e.g., "tokenize-rt==3.2.0"
+
+  # Security Scanning with Bandit
+  - repo: https://github.com/PyCQA/bandit
+    rev: '1.8.2'
+    hooks:
+      - id: bandit
+        args: [ "-ll" ]
+
+  # Dependency Management with uv
+  - repo: local
+    hooks:
+      - id: uv lock
+        name: uv lock
+        entry: make lock
+        language: system
+        pass_filenames: false
+        description: "Install dependencies with uv"
+
+  - repo: https://github.com/pylint-dev/pylint
+    rev: v3.3.3
+    hooks:
+      - id: pylint
+        exclude: test|docs
