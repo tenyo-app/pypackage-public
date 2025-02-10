@@ -1,4 +1,4 @@
-Follow (INSTRUCTIONS.md)[INSTRUCTIONS.md] to get this repo set up!
+Follow [INSTRUCTIONS.md](INSTRUCTIONS.md) to get this repo set up!
 
 <div align="center">
 
