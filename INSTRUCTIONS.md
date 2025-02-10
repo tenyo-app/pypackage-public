@@ -21,6 +21,12 @@ Ensure the github actions have access to the following environment variables:
 
 These token can be access through the providers and can be sent at a repository owner level or at a repository level.
 
+### Project setup on third-party providers:
+
+- [ ] Create a new project on readthedocs with the same name as your `package_name`.
+- [ ] Configure project on codecov
+- [ ] Create project on pypi
+
 ## Useful information
 
 - Releases should be triggered by manually creating a release on github. The associated workflow will be triggered.
