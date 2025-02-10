@@ -10,7 +10,7 @@ Follow [INSTRUCTIONS.md](INSTRUCTIONS.md) to get this repo set up!
 
 ![PyPI - Package Version](https://img.shields.io/pypi/v/<package_name>.svg)
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/<package_name>)
-[![codecov](https://codecov.io/gh/tenyo-app/pydomprob/graph/badge.svg?token=C0BO1ZP0DK)](https://codecov.io/gh/<owner>/<package_name>)
+[![codecov](https://codecov.io/gh/tenyo-app/pydomprob/graph/badge.svg?token=C0BO1ZP0DK)](https://codecov.io/gh/<owner_name>/<package_name>)
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)
 [![Checked with mypy](http://www.mypy-lang.org/static/mypy_badge.svg)](http://mypy-lang.org/)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
@@ -85,5 +85,5 @@ Check out [the docs](https://<package_name>.readthedocs.io/en/latest/) for more 
 
 ## Contributing
 
-- Our code of conduct is [here](https://github.com/<owner>/<repo_name>?tab=coc-ov-file).
-- Check out all our issues [here](https://github.com/<owner>/<repo_name>/issues). We've compiled a least of good first issues [here](https://github.com/<owner>/<repo_name>/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22good%20first%20issue%22).
+- Our code of conduct is [here](https://github.com/<owner_name>/<repo_name>?tab=coc-ov-file).
+- Check out all our issues [here](https://github.com/<owner_name>/<repo_name>/issues). We've compiled a least of good first issues [here](https://github.com/<owner_name>/<repo_name>/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22good%20first%20issue%22).
