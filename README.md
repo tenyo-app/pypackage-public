@@ -1,3 +1,5 @@
+Follow (INSTRUCTIONS.md)[INSTRUCTIONS.md] to get this repo set up!
+
 <div align="center">
 
 # <package_name>  <!---Add an emoji too!-->
